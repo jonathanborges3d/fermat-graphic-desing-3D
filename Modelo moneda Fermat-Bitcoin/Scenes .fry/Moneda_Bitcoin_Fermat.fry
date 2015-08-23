@@ -1,0 +1,5844 @@
+/////////////////////////////
+//        FRYRENDER        //
+//  (c) RandomControl, SL  //
+//-------------------------//
+//    www.fryrender.com    //
+/////////////////////////////
+
+FRYVersion 256
+
+
+
+exportDef
+{
+	mode 0
+	path "C:\randomcontrol\fryrender\output\Moneda_Bitcoin_Fermat.fry"
+}
+
+outputDef
+{
+	Resolution
+	{
+		width 1920
+		height 1080
+		quality 1
+	}
+
+}
+
+renderDef
+{
+	cpu_threads 8
+}
+
+
+skyDef
+{
+
+}
+
+environmentDef
+{
+	Color
+	{
+		mode rgbsl
+		rgb 16777215
+	}
+
+	Map
+	{
+		active 0
+		factor 100.000000
+		path ""
+
+		submapDef
+		{
+			type bitmap
+
+		}
+
+	}
+
+}
+
+backgroundDef
+{
+	Color
+	{
+		mode rgbsl
+		rgb 16777215
+	}
+
+	Map
+	{
+		active 0
+		factor 100.000000
+		path ""
+
+		submapDef
+		{
+			type bitmap
+
+		}
+
+	}
+
+}
+
+reflectionDef
+{
+	Color
+	{
+		mode rgbsl
+		rgb 16777215
+	}
+
+	Map
+	{
+		active 0
+		factor 100.000000
+		path ""
+
+		submapDef
+		{
+			type bitmap
+
+		}
+
+	}
+
+}
+
+
+
+
+lens0Def
+{
+	Aperture
+	{
+		active 0
+		factor 100.000000
+		path ""
+
+		submapDef
+		{
+			type bitmap
+
+		}
+
+	}
+
+	Obstacle
+	{
+		active 0
+		factor 100.000000
+		path ""
+
+		submapDef
+		{
+			type bitmap
+
+		}
+
+	}
+
+}
+
+
+
+lens1Def
+{
+	Aperture
+	{
+		active 0
+		factor 100.000000
+		path ""
+
+		submapDef
+		{
+			type bitmap
+
+		}
+
+	}
+
+	Obstacle
+	{
+		active 0
+		factor 100.000000
+		path ""
+
+		submapDef
+		{
+			type bitmap
+
+		}
+
+	}
+
+}
+
+atmosphereDef
+{
+	type sky
+
+	ditherDef
+	{
+		pal 0 1 "00"
+		pal 1 1 "00"
+		pal 2 1 "00"
+		hex 0 "FFCC00"
+		hex 1 "FFCC00"
+		hex 2 "FFCC00"
+		hex 3 "FFCC00"
+		hex 4 "FFCC00"
+		hex 5 "FFCC00"
+		hex 6 "FFCC00"
+		hex 7 "FFCC00"
+		hex 8 "FFCC00"
+		hex 9 "FFCC00"
+		hex 10 "FFCC00"
+		hex 11 "FFCC00"
+		hex 12 "FFCC00"
+		hex 13 "FFCC00"
+		hex 14 "FFCC00"
+		hex 15 "FFCC00"
+		hex 16 "FFCC00"
+		hex 17 "FFCC00"
+		hex 18 "FFCC00"
+		hex 19 "FFCC00"
+		hex 20 "FFCC00"
+		hex 21 "FFCC00"
+		hex 22 "FFCC00"
+		hex 23 "FFCC00"
+		hex 24 "FFCC00"
+		hex 25 "FFCC00"
+		hex 26 "FFCC00"
+		hex 27 "FFCC00"
+		hex 28 "FFCC00"
+		hex 29 "FFCC00"
+		hex 30 "FFCC00"
+		hex 31 "FFCC00"
+		hex 32 "FFCC00"
+		hex 33 "FFCC00"
+		hex 34 "FFCC00"
+		hex 35 "FFCC00"
+		hex 36 "FFCC00"
+		hex 37 "FFCC00"
+		hex 38 "FFCC00"
+		hex 39 "FFCC00"
+		hex 40 "FFCC00"
+		hex 41 "FFCC00"
+		hex 42 "FFCC00"
+		hex 43 "FFCC00"
+		hex 44 "FFCC00"
+		hex 45 "FFCC00"
+		hex 46 "FFCC00"
+		hex 47 "FFCC00"
+		hex 48 "FFCC00"
+		hex 49 "FFCC00"
+		hex 50 "FFCC00"
+		hex 51 "FFCC00"
+		hex 52 "FFCC00"
+		hex 53 "FFCC00"
+		hex 54 "FFCC00"
+		hex 55 "FFCC00"
+		hex 56 "FFCC00"
+		hex 57 "FFCC00"
+		hex 58 "FFCC00"
+		hex 59 "FFCC00"
+		hex 60 "FFCC00"
+		hex 61 "FFCC00"
+		hex 62 "FFCC00"
+		hex 63 "FFCC00"
+		hex 64 "FFCC00"
+		hex 65 "FFCC00"
+		hex 66 "FFCC00"
+		hex 67 "FFCC00"
+		hex 68 "FFCC00"
+		hex 69 "FFCC00"
+		hex 70 "FFCC00"
+		hex 71 "FFCC00"
+		hex 72 "FFCC00"
+		hex 73 "FFCC00"
+		hex 74 "FFCC00"
+		hex 75 "FFCC00"
+		hex 76 "FFCC00"
+		hex 77 "FFCC00"
+		hex 78 "FFCC00"
+		hex 79 "FFCC00"
+		hex 80 "FFCC00"
+		hex 81 "FFCC00"
+		hex 82 "FFCC00"
+		hex 83 "FFCC00"
+		hex 84 "FFCC00"
+		hex 85 "FFCC00"
+		hex 86 "FFCC00"
+		hex 87 "FFCC00"
+		hex 88 "FFCC00"
+		hex 89 "FFCC00"
+		hex 90 "FFCC00"
+		hex 91 "FFCC00"
+		hex 92 "FFCC00"
+		hex 93 "FFCC00"
+		hex 94 "FFCC00"
+		hex 95 "FFCC00"
+		hex 96 "FFCC00"
+		hex 97 "FFCC00"
+		hex 98 "FFCC00"
+		hex 99 "FFCC00"
+		hex 100 "FFCC00"
+		hex 101 "FFCC00"
+		hex 102 "FFCC00"
+		hex 103 "FFCC00"
+		hex 104 "FFCC00"
+		hex 105 "FFCC00"
+		hex 106 "FFCC00"
+		hex 107 "FFCC00"
+		hex 108 "FFCC00"
+		hex 109 "FFCC00"
+		hex 110 "FFCC00"
+		hex 111 "FFCC00"
+		hex 112 "FFCC00"
+		hex 113 "FFCC00"
+		hex 114 "FFCC00"
+		hex 115 "FFCC00"
+		hex 116 "FFCC00"
+		hex 117 "FFCC00"
+		hex 118 "FFCC00"
+		hex 119 "FFCC00"
+		hex 120 "FFCC00"
+		hex 121 "FFCC00"
+		hex 122 "FFCC00"
+		hex 123 "FFCC00"
+		hex 124 "FFCC00"
+		hex 125 "FFCC00"
+		hex 126 "FFCC00"
+		hex 127 "FFCC00"
+		hex 128 "FFCC00"
+		hex 129 "FFCC00"
+		hex 130 "FFCC00"
+		hex 131 "FFCC00"
+		hex 132 "FFCC00"
+		hex 133 "FFCC00"
+		hex 134 "FFCC00"
+		hex 135 "FFCC00"
+		hex 136 "FFCC00"
+		hex 137 "FFCC00"
+		hex 138 "FFCC00"
+		hex 139 "FFCC00"
+		hex 140 "FFCC00"
+		hex 141 "FFCC00"
+		hex 142 "FFCC00"
+		hex 143 "FFCC00"
+		hex 144 "FFCC00"
+		hex 145 "FFCC00"
+		hex 146 "FFCC00"
+		hex 147 "FFCC00"
+		hex 148 "FFCC00"
+		hex 149 "FFCC00"
+		hex 150 "FFCC00"
+		hex 151 "FFCC00"
+		hex 152 "FFCC00"
+		hex 153 "FFCC00"
+		hex 154 "FFCC00"
+		hex 155 "FFCC00"
+		hex 156 "FFCC00"
+		hex 157 "FFCC00"
+		hex 158 "FFCC00"
+		hex 159 "FFCC00"
+		hex 160 "FFCC00"
+		hex 161 "FFCC00"
+		hex 162 "FFCC00"
+		hex 163 "FFCC00"
+		hex 164 "FFCC00"
+		hex 165 "FFCC00"
+		hex 166 "FFCC00"
+		hex 167 "FFCC00"
+		hex 168 "FFCC00"
+		hex 169 "FFCC00"
+		hex 170 "FFCC00"
+		hex 171 "FFCC00"
+		hex 172 "FFCC00"
+		hex 173 "FFCC00"
+		hex 174 "FFCC00"
+		hex 175 "FFCC00"
+		hex 176 "FFCC00"
+		hex 177 "FFCC00"
+		hex 178 "FFCC00"
+		hex 179 "FFCC00"
+		hex 180 "FFCC00"
+		hex 181 "FFCC00"
+		hex 182 "FFCC00"
+		hex 183 "FFCC00"
+		hex 184 "FFCC00"
+		hex 185 "FFCC00"
+		hex 186 "FFCC00"
+		hex 187 "FFCC00"
+		hex 188 "FFCC00"
+		hex 189 "FFCC00"
+		hex 190 "FFCC00"
+		hex 191 "FFCC00"
+		hex 192 "FFCC00"
+		hex 193 "FFCC00"
+		hex 194 "FFCC00"
+		hex 195 "FFCC00"
+		hex 196 "FFCC00"
+		hex 197 "FFCC00"
+		hex 198 "FFCC00"
+		hex 199 "FFCC00"
+		hex 200 "FFCC00"
+		hex 201 "FFCC00"
+		hex 202 "FFCC00"
+		hex 203 "FFCC00"
+	}
+}
+
+
+frameDef
+{
+	cameraDef
+	{
+		type photographic
+
+		posDef
+		{
+			camx 0.00000
+			camz 3.20520
+			wfwdx -0.00000
+			wfwdy 0.00000
+			wfwdz -1.00000
+			strfx 1.00000
+			strfy -0.00000
+			strfz -0.00000
+		}
+
+		opticsDef
+		{
+			Lens
+			{
+				aperture 36.000000
+				diameter 35.604599
+			}
+
+			Diaphragm
+			{
+				fnumber 8.000000
+				iris 2
+				angle 0
+			}
+
+			target_dist 320.51962
+		}
+
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 -2.81774
+		X 1.00000 -0.00000 0.00000
+		Y 0.00000 -0.00000 1.00000
+
+		objectDef
+		{
+			alias "grid"
+		}
+
+
+
+		material "M000DB668"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "cuerpo"
+		}
+
+
+
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00203C31"
+		material "M001074D9"
+		material "M00344E9E"
+		material "M00203C31"
+		material "M001074D9"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "dientes_sup_1"
+		}
+
+
+
+		material "M00445DCA"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "dientes_sup_2"
+		}
+
+
+
+		material "M00445DCA"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "circuito_sup"
+		}
+
+
+
+		material "M005A7C48"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "dientes_inf_1"
+		}
+
+
+
+		material "M00445DCA"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "dientes_inf_2"
+		}
+
+
+
+		material "M00445DCA"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "circuito_B_2"
+		}
+
+
+
+		material "M005A7C48"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "circuito_B_1"
+		}
+
+
+
+		material "M005A7C48"
+	}
+
+	objectDef
+	{
+		O 1.23014 0.19386 1.59603
+		X 1.00000 0.00000 0.00000
+		Y 0.00000 1.00000 -0.00000
+
+		objectDef
+		{
+			alias "B_lineas"
+		}
+
+
+
+		material "M00619050"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "letras_sup"
+		}
+
+
+
+		material "M007B45E5"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "letras_inf"
+		}
+
+
+
+		material "M007B45E5"
+	}
+
+	objectDef
+	{
+		O 0.00000 -0.00000 0.00000
+		X -1.00000 -0.00000 0.00000
+		Y -0.00000 -0.00000 -1.00000
+
+		objectDef
+		{
+			alias "fermat_lineas"
+		}
+
+
+
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+		material "M005A7C48"
+		material "M00619050"
+	}
+
+}
+
+// Material 0
+materialDef
+{
+	type layered
+
+	paramsDef
+	{
+		name "M000DB668"
+		alias "base"
+		Opacity
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	displacementDef
+	{
+		Displace
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	toonDef
+	{
+		Color0
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map0
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+		Color1
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map1
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+
+	layerDef
+	{
+		type basic
+
+		blendingDef
+		{
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			alias "Layer #1"
+		}
+
+		reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+
+		roughnessDef
+		{
+			Roughmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Anisomap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Rotmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Bump
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		transmittanceDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		sssDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coatingDef
+		{
+			Thickmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+	}
+
+	ditherDef
+	{
+		pal 0 2 "2080"
+		pal 1 2 "2080"
+		pal 2 2 "2080"
+		hex 0 "FF2600FF2601FF2600FF2601"
+		hex 1 "FF2600FF2601FF2600FF2601"
+		hex 2 "FF2600FF2601FF2600FF2601"
+		hex 3 "FF2600FF2601FF2600FF2601"
+		hex 4 "FF2600FF2601FF2600FF2601"
+		hex 5 "FF2600FF2601FF2600FF2601"
+		hex 6 "FF2600FF2601FF2600FF2601"
+		hex 7 "FF2600FF2601FF2600FF2601"
+		hex 8 "FF2600FF2601FF2600FF2601"
+		hex 9 "FF2600FF2601FF2600FF2601"
+		hex 10 "FF2600FF2601FF2600FF2601"
+		hex 11 "FF2600FF2601FF2600FF2601"
+		hex 12 "FF2600FF2601FF2600FF2601"
+		hex 13 "FF2600FF2601FF2600FF2601"
+		hex 14 "FF2600FF2601FF2600FF2601"
+		hex 15 "FF2600FF2601FF2600FF2601"
+		hex 16 "FF2600FF2601FF2600FF2601"
+		hex 17 "FF2600FF2601FF2600FF2601"
+		hex 18 "FF2600FF2601FF2600FF2601"
+		hex 19 "FF2600FF2601FF2600FF2601"
+		hex 20 "FF2600FF2601FF2600FF2601"
+		hex 21 "FF2600FF2601FF2600FF2601"
+		hex 22 "FF2600FF2601FF2600FF2601"
+		hex 23 "FF2600FF2601FF2600FF2601"
+		hex 24 "FF2600FF2601FF2600FF2601"
+		hex 25 "FF2600FF2601FF2600FF2601"
+		hex 26 "FF2600FF2601FF2600FF2601"
+		hex 27 "FF2600FF2601FF2600FF2601"
+		hex 28 "FF2600FF2601FF2600FF2601"
+		hex 29 "FF2600FF2601FF2600FF2601"
+		hex 30 "FF2600FF2601FF2600FF2601"
+		hex 31 "FF2600FF2601FF2600FF2601"
+		hex 32 "FF2600FF2601FF2600FF2601"
+		hex 33 "FF2600FF2601FF2600FF2601"
+		hex 34 "FF2600FF2601FF2600FF2601"
+		hex 35 "FF2600FF2601FF2600FF2601"
+		hex 36 "FF2600FF2601FF2600FF2601"
+		hex 37 "FF2600FF2601FF2600FF2601"
+		hex 38 "FF2601FF2600FF2601FF2600"
+		hex 39 "FF2601FF2600FF2601FF2600"
+		hex 40 "FF2601FF2600FF2601FF2600"
+		hex 41 "FF2601FF2600FF2601FF2600"
+		hex 42 "FF2601FF2600FF2601FF2600"
+		hex 43 "FF2601FF2600FF2601FF2600"
+		hex 44 "FF2601FF2600FF2601FF2600"
+		hex 45 "FF2601FF2600FF2601FF2600"
+		hex 46 "FF2601FF2600FF2601FF2600"
+		hex 47 "FF2601FF2600FF2601FF2600"
+		hex 48 "FF2601FF2600FF2601FF2600"
+		hex 49 "FF2601FF2600FF2601FF2600"
+		hex 50 "FF2601FF2600FF2601FF2600"
+		hex 51 "FF2601FF2600FF2601FF2600"
+		hex 52 "FF2601FF2600FF2601FF2600"
+		hex 53 "FF2601FF2600FF2601FF2600"
+		hex 54 "FF2601FF2600FF2601FF2600"
+		hex 55 "FF2601FF2600FF2601FF2600"
+		hex 56 "FF2601FF2600FF2601FF2600"
+		hex 57 "FF2601FF2600FF2601FF2600"
+		hex 58 "FF2601FF2600FF2601FF2600"
+		hex 59 "FF2601FF2600FF2601FF2600"
+		hex 60 "FF2601FF2600FF2601FF2600"
+		hex 61 "FF2601FF2600FF2601FF2600"
+		hex 62 "FF2601FF2600FF2601FF2600"
+		hex 63 "FF2601FF2600FF2601FF2600"
+		hex 64 "FF2601FF2600FF2601FF2600"
+		hex 65 "FF2601FF2600FF2601FF2600"
+		hex 66 "FF2601FF2600FF2601FF2600"
+		hex 67 "FF2601FF2600FF2601FF2600"
+		hex 68 "FF2601FF2600FF2601FF2600"
+		hex 69 "FF2601FF2600FF2601FF2600"
+		hex 70 "FF2601FF2600FF2601FF2600"
+		hex 71 "FF2601FF2600FF2601FF2600"
+		hex 72 "FF2601FF2600FF2601FF2600"
+		hex 73 "FF2601FF2600FF2601FF2600"
+		hex 74 "FF2601FF2600FF2601FF2600"
+		hex 75 "FF2601FF2600FF2601FF2600"
+		hex 76 "FF2600FF2601FF2600FF2601"
+		hex 77 "FF2600FF2601FF2600FF2601"
+		hex 78 "FF2600FF2601FF2600FF2601"
+		hex 79 "FF2600FF2601FF2600FF2601"
+		hex 80 "FF2600FF2601FF2600FF2601"
+		hex 81 "FF2600FF2601FF2600FF2601"
+		hex 82 "FF2600FF2601FF2600FF2601"
+		hex 83 "FF2600FF2601FF2600FF2601"
+		hex 84 "FF2600FF2601FF2600FF2601"
+		hex 85 "FF2600FF2601FF2600FF2601"
+		hex 86 "FF2600FF2601FF2600FF2601"
+		hex 87 "FF2600FF2601FF2600FF2601"
+		hex 88 "FF2600FF2601FF2600FF2601"
+		hex 89 "FF2600FF2601FF2600FF2601"
+		hex 90 "FF2600FF2601FF2600FF2601"
+		hex 91 "FF2600FF2601FF2600FF2601"
+		hex 92 "FF2600FF2601FF2600FF2601"
+		hex 93 "FF2600FF2601FF2600FF2601"
+		hex 94 "FF2600FF2601FF2600FF2601"
+		hex 95 "FF2600FF2601FF2600FF2601"
+		hex 96 "FF2600FF2601FF2600FF2601"
+		hex 97 "FF2600FF2601FF2600FF2601"
+		hex 98 "FF2600FF2601FF2600FF2601"
+		hex 99 "FF2600FF2601FF2600FF2601"
+		hex 100 "FF2600FF2601FF2600FF2601"
+		hex 101 "FF2600FF2601FF2600FF2601"
+		hex 102 "FF2600FF2601FF2600FF2601"
+		hex 103 "FF2600FF2601FF2600FF2601"
+		hex 104 "FF2600FF2601FF2600FF2601"
+		hex 105 "FF2600FF2601FF2600FF2601"
+		hex 106 "FF2600FF2601FF2600FF2601"
+		hex 107 "FF2600FF2601FF2600FF2601"
+		hex 108 "FF2600FF2601FF2600FF2601"
+		hex 109 "FF2600FF2601FF2600FF2601"
+		hex 110 "FF2600FF2601FF2600FF2601"
+		hex 111 "FF2600FF2601FF2600FF2601"
+		hex 112 "FF2600FF2601FF2600FF2601"
+		hex 113 "FF2600FF2601FF2600FF2601"
+		hex 114 "FF2601FF2600FF2601FF2600"
+		hex 115 "FF2601FF2600FF2601FF2600"
+		hex 116 "FF2601FF2600FF2601FF2600"
+		hex 117 "FF2601FF2600FF2601FF2600"
+		hex 118 "FF2601FF2600FF2601FF2600"
+		hex 119 "FF2601FF2600FF2601FF2600"
+		hex 120 "FF2601FF2600FF2601FF2600"
+		hex 121 "FF2601FF2600FF2601FF2600"
+		hex 122 "FF2601FF2600FF2601FF2600"
+		hex 123 "FF2601FF2600FF2601FF2600"
+		hex 124 "FF2601FF2600FF2601FF2600"
+		hex 125 "FF2601FF2600FF2601FF2600"
+		hex 126 "FF2601FF2600FF2601FF2600"
+		hex 127 "FF2601FF2600FF2601FF2600"
+		hex 128 "FF2601FF2600FF2601FF2600"
+		hex 129 "FF2601FF2600FF2601FF2600"
+		hex 130 "FF2601FF2600FF2601FF2600"
+		hex 131 "FF2601FF2600FF2601FF2600"
+		hex 132 "FF2601FF2600FF2601FF2600"
+		hex 133 "FF2601FF2600FF2601FF2600"
+		hex 134 "FF2601FF2600FF2601FF2600"
+		hex 135 "FF2601FF2600FF2601FF2600"
+		hex 136 "FF2601FF2600FF2601FF2600"
+		hex 137 "FF2601FF2600FF2601FF2600"
+		hex 138 "FF2601FF2600FF2601FF2600"
+		hex 139 "FF2601FF2600FF2601FF2600"
+		hex 140 "FF2601FF2600FF2601FF2600"
+		hex 141 "FF2601FF2600FF2601FF2600"
+		hex 142 "FF2601FF2600FF2601FF2600"
+		hex 143 "FF2601FF2600FF2601FF2600"
+		hex 144 "FF2601FF2600FF2601FF2600"
+		hex 145 "FF2601FF2600FF2601FF2600"
+		hex 146 "FF2601FF2600FF2601FF2600"
+		hex 147 "FF2601FF2600FF2601FF2600"
+		hex 148 "FF2601FF2600FF2601FF2600"
+		hex 149 "FF2601FF2600FF2601FF2600"
+		hex 150 "FF2601FF2600FF2601FF2600"
+		hex 151 "FF2601FF2600FF2601FF2600"
+	}
+}
+
+// Material 1
+materialDef
+{
+	type layered
+
+	paramsDef
+	{
+		name "M001074D9"
+		alias "contorno"
+		Opacity
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	displacementDef
+	{
+		Displace
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	toonDef
+	{
+		Color0
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map0
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+		Color1
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map1
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+
+	layerDef
+	{
+		type basic
+
+		blendingDef
+		{
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			alias "Layer #1"
+		}
+
+		reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+
+		roughnessDef
+		{
+			Roughmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Anisomap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Rotmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Bump
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		transmittanceDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		sssDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coatingDef
+		{
+			Thickmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+	}
+
+	ditherDef
+	{
+		pal 0 2 "2080"
+		pal 1 2 "2080"
+		pal 2 2 "2080"
+		hex 0 "FF2600FF2601FF2600FF2601"
+		hex 1 "FF2600FF2601FF2600FF2601"
+		hex 2 "FF2600FF2601FF2600FF2601"
+		hex 3 "FF2600FF2601FF2600FF2601"
+		hex 4 "FF2600FF2601FF2600FF2601"
+		hex 5 "FF2600FF2601FF2600FF2601"
+		hex 6 "FF2600FF2601FF2600FF2601"
+		hex 7 "FF2600FF2601FF2600FF2601"
+		hex 8 "FF2600FF2601FF2600FF2601"
+		hex 9 "FF2600FF2601FF2600FF2601"
+		hex 10 "FF2600FF2601FF2600FF2601"
+		hex 11 "FF2600FF2601FF2600FF2601"
+		hex 12 "FF2600FF2601FF2600FF2601"
+		hex 13 "FF2600FF2601FF2600FF2601"
+		hex 14 "FF2600FF2601FF2600FF2601"
+		hex 15 "FF2600FF2601FF2600FF2601"
+		hex 16 "FF2600FF2601FF2600FF2601"
+		hex 17 "FF2600FF2601FF2600FF2601"
+		hex 18 "FF2600FF2601FF2600FF2601"
+		hex 19 "FF2600FF2601FF2600FF2601"
+		hex 20 "FF2600FF2601FF2600FF2601"
+		hex 21 "FF2600FF2601FF2600FF2601"
+		hex 22 "FF2600FF2601FF2600FF2601"
+		hex 23 "FF2600FF2601FF2600FF2601"
+		hex 24 "FF2600FF2601FF2600FF2601"
+		hex 25 "FF2600FF2601FF2600FF2601"
+		hex 26 "FF2600FF2601FF2600FF2601"
+		hex 27 "FF2600FF2601FF2600FF2601"
+		hex 28 "FF2600FF2601FF2600FF2601"
+		hex 29 "FF2600FF2601FF2600FF2601"
+		hex 30 "FF2600FF2601FF2600FF2601"
+		hex 31 "FF2600FF2601FF2600FF2601"
+		hex 32 "FF2600FF2601FF2600FF2601"
+		hex 33 "FF2600FF2601FF2600FF2601"
+		hex 34 "FF2600FF2601FF2600FF2601"
+		hex 35 "FF2600FF2601FF2600FF2601"
+		hex 36 "FF2600FF2601FF2600FF2601"
+		hex 37 "FF2600FF2601FF2600FF2601"
+		hex 38 "FF2601FF2600FF2601FF2600"
+		hex 39 "FF2601FF2600FF2601FF2600"
+		hex 40 "FF2601FF2600FF2601FF2600"
+		hex 41 "FF2601FF2600FF2601FF2600"
+		hex 42 "FF2601FF2600FF2601FF2600"
+		hex 43 "FF2601FF2600FF2601FF2600"
+		hex 44 "FF2601FF2600FF2601FF2600"
+		hex 45 "FF2601FF2600FF2601FF2600"
+		hex 46 "FF2601FF2600FF2601FF2600"
+		hex 47 "FF2601FF2600FF2601FF2600"
+		hex 48 "FF2601FF2600FF2601FF2600"
+		hex 49 "FF2601FF2600FF2601FF2600"
+		hex 50 "FF2601FF2600FF2601FF2600"
+		hex 51 "FF2601FF2600FF2601FF2600"
+		hex 52 "FF2601FF2600FF2601FF2600"
+		hex 53 "FF2601FF2600FF2601FF2600"
+		hex 54 "FF2601FF2600FF2601FF2600"
+		hex 55 "FF2601FF2600FF2601FF2600"
+		hex 56 "FF2601FF2600FF2601FF2600"
+		hex 57 "FF2601FF2600FF2601FF2600"
+		hex 58 "FF2601FF2600FF2601FF2600"
+		hex 59 "FF2601FF2600FF2601FF2600"
+		hex 60 "FF2601FF2600FF2601FF2600"
+		hex 61 "FF2601FF2600FF2601FF2600"
+		hex 62 "FF2601FF2600FF2601FF2600"
+		hex 63 "FF2601FF2600FF2601FF2600"
+		hex 64 "FF2601FF2600FF2601FF2600"
+		hex 65 "FF2601FF2600FF2601FF2600"
+		hex 66 "FF2601FF2600FF2601FF2600"
+		hex 67 "FF2601FF2600FF2601FF2600"
+		hex 68 "FF2601FF2600FF2601FF2600"
+		hex 69 "FF2601FF2600FF2601FF2600"
+		hex 70 "FF2601FF2600FF2601FF2600"
+		hex 71 "FF2601FF2600FF2601FF2600"
+		hex 72 "FF2601FF2600FF2601FF2600"
+		hex 73 "FF2601FF2600FF2601FF2600"
+		hex 74 "FF2601FF2600FF2601FF2600"
+		hex 75 "FF2601FF2600FF2601FF2600"
+		hex 76 "FF2600FF2601FF2600FF2601"
+		hex 77 "FF2600FF2601FF2600FF2601"
+		hex 78 "FF2600FF2601FF2600FF2601"
+		hex 79 "FF2600FF2601FF2600FF2601"
+		hex 80 "FF2600FF2601FF2600FF2601"
+		hex 81 "FF2600FF2601FF2600FF2601"
+		hex 82 "FF2600FF2601FF2600FF2601"
+		hex 83 "FF2600FF2601FF2600FF2601"
+		hex 84 "FF2600FF2601FF2600FF2601"
+		hex 85 "FF2600FF2601FF2600FF2601"
+		hex 86 "FF2600FF2601FF2600FF2601"
+		hex 87 "FF2600FF2601FF2600FF2601"
+		hex 88 "FF2600FF2601FF2600FF2601"
+		hex 89 "FF2600FF2601FF2600FF2601"
+		hex 90 "FF2600FF2601FF2600FF2601"
+		hex 91 "FF2600FF2601FF2600FF2601"
+		hex 92 "FF2600FF2601FF2600FF2601"
+		hex 93 "FF2600FF2601FF2600FF2601"
+		hex 94 "FF2600FF2601FF2600FF2601"
+		hex 95 "FF2600FF2601FF2600FF2601"
+		hex 96 "FF2600FF2601FF2600FF2601"
+		hex 97 "FF2600FF2601FF2600FF2601"
+		hex 98 "FF2600FF2601FF2600FF2601"
+		hex 99 "FF2600FF2601FF2600FF2601"
+		hex 100 "FF2600FF2601FF2600FF2601"
+		hex 101 "FF2600FF2601FF2600FF2601"
+		hex 102 "FF2600FF2601FF2600FF2601"
+		hex 103 "FF2600FF2601FF2600FF2601"
+		hex 104 "FF2600FF2601FF2600FF2601"
+		hex 105 "FF2600FF2601FF2600FF2601"
+		hex 106 "FF2600FF2601FF2600FF2601"
+		hex 107 "FF2600FF2601FF2600FF2601"
+		hex 108 "FF2600FF2601FF2600FF2601"
+		hex 109 "FF2600FF2601FF2600FF2601"
+		hex 110 "FF2600FF2601FF2600FF2601"
+		hex 111 "FF2600FF2601FF2600FF2601"
+		hex 112 "FF2600FF2601FF2600FF2601"
+		hex 113 "FF2600FF2601FF2600FF2601"
+		hex 114 "FF2601FF2600FF2601FF2600"
+		hex 115 "FF2601FF2600FF2601FF2600"
+		hex 116 "FF2601FF2600FF2601FF2600"
+		hex 117 "FF2601FF2600FF2601FF2600"
+		hex 118 "FF2601FF2600FF2601FF2600"
+		hex 119 "FF2601FF2600FF2601FF2600"
+		hex 120 "FF2601FF2600FF2601FF2600"
+		hex 121 "FF2601FF2600FF2601FF2600"
+		hex 122 "FF2601FF2600FF2601FF2600"
+		hex 123 "FF2601FF2600FF2601FF2600"
+		hex 124 "FF2601FF2600FF2601FF2600"
+		hex 125 "FF2601FF2600FF2601FF2600"
+		hex 126 "FF2601FF2600FF2601FF2600"
+		hex 127 "FF2601FF2600FF2601FF2600"
+		hex 128 "FF2601FF2600FF2601FF2600"
+		hex 129 "FF2601FF2600FF2601FF2600"
+		hex 130 "FF2601FF2600FF2601FF2600"
+		hex 131 "FF2601FF2600FF2601FF2600"
+		hex 132 "FF2601FF2600FF2601FF2600"
+		hex 133 "FF2601FF2600FF2601FF2600"
+		hex 134 "FF2601FF2600FF2601FF2600"
+		hex 135 "FF2601FF2600FF2601FF2600"
+		hex 136 "FF2601FF2600FF2601FF2600"
+		hex 137 "FF2601FF2600FF2601FF2600"
+		hex 138 "FF2601FF2600FF2601FF2600"
+		hex 139 "FF2601FF2600FF2601FF2600"
+		hex 140 "FF2601FF2600FF2601FF2600"
+		hex 141 "FF2601FF2600FF2601FF2600"
+		hex 142 "FF2601FF2600FF2601FF2600"
+		hex 143 "FF2601FF2600FF2601FF2600"
+		hex 144 "FF2601FF2600FF2601FF2600"
+		hex 145 "FF2601FF2600FF2601FF2600"
+		hex 146 "FF2601FF2600FF2601FF2600"
+		hex 147 "FF2601FF2600FF2601FF2600"
+		hex 148 "FF2601FF2600FF2601FF2600"
+		hex 149 "FF2601FF2600FF2601FF2600"
+		hex 150 "FF2601FF2600FF2601FF2600"
+		hex 151 "FF2601FF2600FF2601FF2600"
+	}
+}
+
+// Material 2
+materialDef
+{
+	type layered
+
+	paramsDef
+	{
+		name "M00203C31"
+		alias "fondo_anillo"
+		Opacity
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	displacementDef
+	{
+		Displace
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	toonDef
+	{
+		Color0
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map0
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+		Color1
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map1
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+
+	layerDef
+	{
+		type basic
+
+		blendingDef
+		{
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			alias "Layer #1"
+		}
+
+		reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+
+		roughnessDef
+		{
+			Roughmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Anisomap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Rotmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Bump
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		transmittanceDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		sssDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coatingDef
+		{
+			Thickmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+	}
+
+	ditherDef
+	{
+		pal 0 2 "2080"
+		pal 1 2 "2080"
+		pal 2 2 "2080"
+		hex 0 "FF2600FF2601FF2600FF2601"
+		hex 1 "FF2600FF2601FF2600FF2601"
+		hex 2 "FF2600FF2601FF2600FF2601"
+		hex 3 "FF2600FF2601FF2600FF2601"
+		hex 4 "FF2600FF2601FF2600FF2601"
+		hex 5 "FF2600FF2601FF2600FF2601"
+		hex 6 "FF2600FF2601FF2600FF2601"
+		hex 7 "FF2600FF2601FF2600FF2601"
+		hex 8 "FF2600FF2601FF2600FF2601"
+		hex 9 "FF2600FF2601FF2600FF2601"
+		hex 10 "FF2600FF2601FF2600FF2601"
+		hex 11 "FF2600FF2601FF2600FF2601"
+		hex 12 "FF2600FF2601FF2600FF2601"
+		hex 13 "FF2600FF2601FF2600FF2601"
+		hex 14 "FF2600FF2601FF2600FF2601"
+		hex 15 "FF2600FF2601FF2600FF2601"
+		hex 16 "FF2600FF2601FF2600FF2601"
+		hex 17 "FF2600FF2601FF2600FF2601"
+		hex 18 "FF2600FF2601FF2600FF2601"
+		hex 19 "FF2600FF2601FF2600FF2601"
+		hex 20 "FF2600FF2601FF2600FF2601"
+		hex 21 "FF2600FF2601FF2600FF2601"
+		hex 22 "FF2600FF2601FF2600FF2601"
+		hex 23 "FF2600FF2601FF2600FF2601"
+		hex 24 "FF2600FF2601FF2600FF2601"
+		hex 25 "FF2600FF2601FF2600FF2601"
+		hex 26 "FF2600FF2601FF2600FF2601"
+		hex 27 "FF2600FF2601FF2600FF2601"
+		hex 28 "FF2600FF2601FF2600FF2601"
+		hex 29 "FF2600FF2601FF2600FF2601"
+		hex 30 "FF2600FF2601FF2600FF2601"
+		hex 31 "FF2600FF2601FF2600FF2601"
+		hex 32 "FF2600FF2601FF2600FF2601"
+		hex 33 "FF2600FF2601FF2600FF2601"
+		hex 34 "FF2600FF2601FF2600FF2601"
+		hex 35 "FF2600FF2601FF2600FF2601"
+		hex 36 "FF2600FF2601FF2600FF2601"
+		hex 37 "FF2600FF2601FF2600FF2601"
+		hex 38 "FF2601FF2600FF2601FF2600"
+		hex 39 "FF2601FF2600FF2601FF2600"
+		hex 40 "FF2601FF2600FF2601FF2600"
+		hex 41 "FF2601FF2600FF2601FF2600"
+		hex 42 "FF2601FF2600FF2601FF2600"
+		hex 43 "FF2601FF2600FF2601FF2600"
+		hex 44 "FF2601FF2600FF2601FF2600"
+		hex 45 "FF2601FF2600FF2601FF2600"
+		hex 46 "FF2601FF2600FF2601FF2600"
+		hex 47 "FF2601FF2600FF2601FF2600"
+		hex 48 "FF2601FF2600FF2601FF2600"
+		hex 49 "FF2601FF2600FF2601FF2600"
+		hex 50 "FF2601FF2600FF2601FF2600"
+		hex 51 "FF2601FF2600FF2601FF2600"
+		hex 52 "FF2601FF2600FF2601FF2600"
+		hex 53 "FF2601FF2600FF2601FF2600"
+		hex 54 "FF2601FF2600FF2601FF2600"
+		hex 55 "FF2601FF2600FF2601FF2600"
+		hex 56 "FF2601FF2600FF2601FF2600"
+		hex 57 "FF2601FF2600FF2601FF2600"
+		hex 58 "FF2601FF2600FF2601FF2600"
+		hex 59 "FF2601FF2600FF2601FF2600"
+		hex 60 "FF2601FF2600FF2601FF2600"
+		hex 61 "FF2601FF2600FF2601FF2600"
+		hex 62 "FF2601FF2600FF2601FF2600"
+		hex 63 "FF2601FF2600FF2601FF2600"
+		hex 64 "FF2601FF2600FF2601FF2600"
+		hex 65 "FF2601FF2600FF2601FF2600"
+		hex 66 "FF2601FF2600FF2601FF2600"
+		hex 67 "FF2601FF2600FF2601FF2600"
+		hex 68 "FF2601FF2600FF2601FF2600"
+		hex 69 "FF2601FF2600FF2601FF2600"
+		hex 70 "FF2601FF2600FF2601FF2600"
+		hex 71 "FF2601FF2600FF2601FF2600"
+		hex 72 "FF2601FF2600FF2601FF2600"
+		hex 73 "FF2601FF2600FF2601FF2600"
+		hex 74 "FF2601FF2600FF2601FF2600"
+		hex 75 "FF2601FF2600FF2601FF2600"
+		hex 76 "FF2600FF2601FF2600FF2601"
+		hex 77 "FF2600FF2601FF2600FF2601"
+		hex 78 "FF2600FF2601FF2600FF2601"
+		hex 79 "FF2600FF2601FF2600FF2601"
+		hex 80 "FF2600FF2601FF2600FF2601"
+		hex 81 "FF2600FF2601FF2600FF2601"
+		hex 82 "FF2600FF2601FF2600FF2601"
+		hex 83 "FF2600FF2601FF2600FF2601"
+		hex 84 "FF2600FF2601FF2600FF2601"
+		hex 85 "FF2600FF2601FF2600FF2601"
+		hex 86 "FF2600FF2601FF2600FF2601"
+		hex 87 "FF2600FF2601FF2600FF2601"
+		hex 88 "FF2600FF2601FF2600FF2601"
+		hex 89 "FF2600FF2601FF2600FF2601"
+		hex 90 "FF2600FF2601FF2600FF2601"
+		hex 91 "FF2600FF2601FF2600FF2601"
+		hex 92 "FF2600FF2601FF2600FF2601"
+		hex 93 "FF2600FF2601FF2600FF2601"
+		hex 94 "FF2600FF2601FF2600FF2601"
+		hex 95 "FF2600FF2601FF2600FF2601"
+		hex 96 "FF2600FF2601FF2600FF2601"
+		hex 97 "FF2600FF2601FF2600FF2601"
+		hex 98 "FF2600FF2601FF2600FF2601"
+		hex 99 "FF2600FF2601FF2600FF2601"
+		hex 100 "FF2600FF2601FF2600FF2601"
+		hex 101 "FF2600FF2601FF2600FF2601"
+		hex 102 "FF2600FF2601FF2600FF2601"
+		hex 103 "FF2600FF2601FF2600FF2601"
+		hex 104 "FF2600FF2601FF2600FF2601"
+		hex 105 "FF2600FF2601FF2600FF2601"
+		hex 106 "FF2600FF2601FF2600FF2601"
+		hex 107 "FF2600FF2601FF2600FF2601"
+		hex 108 "FF2600FF2601FF2600FF2601"
+		hex 109 "FF2600FF2601FF2600FF2601"
+		hex 110 "FF2600FF2601FF2600FF2601"
+		hex 111 "FF2600FF2601FF2600FF2601"
+		hex 112 "FF2600FF2601FF2600FF2601"
+		hex 113 "FF2600FF2601FF2600FF2601"
+		hex 114 "FF2601FF2600FF2601FF2600"
+		hex 115 "FF2601FF2600FF2601FF2600"
+		hex 116 "FF2601FF2600FF2601FF2600"
+		hex 117 "FF2601FF2600FF2601FF2600"
+		hex 118 "FF2601FF2600FF2601FF2600"
+		hex 119 "FF2601FF2600FF2601FF2600"
+		hex 120 "FF2601FF2600FF2601FF2600"
+		hex 121 "FF2601FF2600FF2601FF2600"
+		hex 122 "FF2601FF2600FF2601FF2600"
+		hex 123 "FF2601FF2600FF2601FF2600"
+		hex 124 "FF2601FF2600FF2601FF2600"
+		hex 125 "FF2601FF2600FF2601FF2600"
+		hex 126 "FF2601FF2600FF2601FF2600"
+		hex 127 "FF2601FF2600FF2601FF2600"
+		hex 128 "FF2601FF2600FF2601FF2600"
+		hex 129 "FF2601FF2600FF2601FF2600"
+		hex 130 "FF2601FF2600FF2601FF2600"
+		hex 131 "FF2601FF2600FF2601FF2600"
+		hex 132 "FF2601FF2600FF2601FF2600"
+		hex 133 "FF2601FF2600FF2601FF2600"
+		hex 134 "FF2601FF2600FF2601FF2600"
+		hex 135 "FF2601FF2600FF2601FF2600"
+		hex 136 "FF2601FF2600FF2601FF2600"
+		hex 137 "FF2601FF2600FF2601FF2600"
+		hex 138 "FF2601FF2600FF2601FF2600"
+		hex 139 "FF2601FF2600FF2601FF2600"
+		hex 140 "FF2601FF2600FF2601FF2600"
+		hex 141 "FF2601FF2600FF2601FF2600"
+		hex 142 "FF2601FF2600FF2601FF2600"
+		hex 143 "FF2601FF2600FF2601FF2600"
+		hex 144 "FF2601FF2600FF2601FF2600"
+		hex 145 "FF2601FF2600FF2601FF2600"
+		hex 146 "FF2601FF2600FF2601FF2600"
+		hex 147 "FF2601FF2600FF2601FF2600"
+		hex 148 "FF2601FF2600FF2601FF2600"
+		hex 149 "FF2601FF2600FF2601FF2600"
+		hex 150 "FF2601FF2600FF2601FF2600"
+		hex 151 "FF2601FF2600FF2601FF2600"
+	}
+}
+
+// Material 3
+materialDef
+{
+	type layered
+
+	paramsDef
+	{
+		name "M00344E9E"
+		alias "fondo"
+		Opacity
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	displacementDef
+	{
+		Displace
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	toonDef
+	{
+		Color0
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map0
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+		Color1
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map1
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+
+	layerDef
+	{
+		type basic
+
+		blendingDef
+		{
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			alias "Layer #1"
+		}
+
+		reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+
+		roughnessDef
+		{
+			Roughmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Anisomap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Rotmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Bump
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		transmittanceDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		sssDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coatingDef
+		{
+			Thickmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+	}
+
+	ditherDef
+	{
+		pal 0 2 "2080"
+		pal 1 2 "2080"
+		pal 2 2 "2080"
+		hex 0 "FF2600FF2601FF2600FF2601"
+		hex 1 "FF2600FF2601FF2600FF2601"
+		hex 2 "FF2600FF2601FF2600FF2601"
+		hex 3 "FF2600FF2601FF2600FF2601"
+		hex 4 "FF2600FF2601FF2600FF2601"
+		hex 5 "FF2600FF2601FF2600FF2601"
+		hex 6 "FF2600FF2601FF2600FF2601"
+		hex 7 "FF2600FF2601FF2600FF2601"
+		hex 8 "FF2600FF2601FF2600FF2601"
+		hex 9 "FF2600FF2601FF2600FF2601"
+		hex 10 "FF2600FF2601FF2600FF2601"
+		hex 11 "FF2600FF2601FF2600FF2601"
+		hex 12 "FF2600FF2601FF2600FF2601"
+		hex 13 "FF2600FF2601FF2600FF2601"
+		hex 14 "FF2600FF2601FF2600FF2601"
+		hex 15 "FF2600FF2601FF2600FF2601"
+		hex 16 "FF2600FF2601FF2600FF2601"
+		hex 17 "FF2600FF2601FF2600FF2601"
+		hex 18 "FF2600FF2601FF2600FF2601"
+		hex 19 "FF2600FF2601FF2600FF2601"
+		hex 20 "FF2600FF2601FF2600FF2601"
+		hex 21 "FF2600FF2601FF2600FF2601"
+		hex 22 "FF2600FF2601FF2600FF2601"
+		hex 23 "FF2600FF2601FF2600FF2601"
+		hex 24 "FF2600FF2601FF2600FF2601"
+		hex 25 "FF2600FF2601FF2600FF2601"
+		hex 26 "FF2600FF2601FF2600FF2601"
+		hex 27 "FF2600FF2601FF2600FF2601"
+		hex 28 "FF2600FF2601FF2600FF2601"
+		hex 29 "FF2600FF2601FF2600FF2601"
+		hex 30 "FF2600FF2601FF2600FF2601"
+		hex 31 "FF2600FF2601FF2600FF2601"
+		hex 32 "FF2600FF2601FF2600FF2601"
+		hex 33 "FF2600FF2601FF2600FF2601"
+		hex 34 "FF2600FF2601FF2600FF2601"
+		hex 35 "FF2600FF2601FF2600FF2601"
+		hex 36 "FF2600FF2601FF2600FF2601"
+		hex 37 "FF2600FF2601FF2600FF2601"
+		hex 38 "FF2601FF2600FF2601FF2600"
+		hex 39 "FF2601FF2600FF2601FF2600"
+		hex 40 "FF2601FF2600FF2601FF2600"
+		hex 41 "FF2601FF2600FF2601FF2600"
+		hex 42 "FF2601FF2600FF2601FF2600"
+		hex 43 "FF2601FF2600FF2601FF2600"
+		hex 44 "FF2601FF2600FF2601FF2600"
+		hex 45 "FF2601FF2600FF2601FF2600"
+		hex 46 "FF2601FF2600FF2601FF2600"
+		hex 47 "FF2601FF2600FF2601FF2600"
+		hex 48 "FF2601FF2600FF2601FF2600"
+		hex 49 "FF2601FF2600FF2601FF2600"
+		hex 50 "FF2601FF2600FF2601FF2600"
+		hex 51 "FF2601FF2600FF2601FF2600"
+		hex 52 "FF2601FF2600FF2601FF2600"
+		hex 53 "FF2601FF2600FF2601FF2600"
+		hex 54 "FF2601FF2600FF2601FF2600"
+		hex 55 "FF2601FF2600FF2601FF2600"
+		hex 56 "FF2601FF2600FF2601FF2600"
+		hex 57 "FF2601FF2600FF2601FF2600"
+		hex 58 "FF2601FF2600FF2601FF2600"
+		hex 59 "FF2601FF2600FF2601FF2600"
+		hex 60 "FF2601FF2600FF2601FF2600"
+		hex 61 "FF2601FF2600FF2601FF2600"
+		hex 62 "FF2601FF2600FF2601FF2600"
+		hex 63 "FF2601FF2600FF2601FF2600"
+		hex 64 "FF2601FF2600FF2601FF2600"
+		hex 65 "FF2601FF2600FF2601FF2600"
+		hex 66 "FF2601FF2600FF2601FF2600"
+		hex 67 "FF2601FF2600FF2601FF2600"
+		hex 68 "FF2601FF2600FF2601FF2600"
+		hex 69 "FF2601FF2600FF2601FF2600"
+		hex 70 "FF2601FF2600FF2601FF2600"
+		hex 71 "FF2601FF2600FF2601FF2600"
+		hex 72 "FF2601FF2600FF2601FF2600"
+		hex 73 "FF2601FF2600FF2601FF2600"
+		hex 74 "FF2601FF2600FF2601FF2600"
+		hex 75 "FF2601FF2600FF2601FF2600"
+		hex 76 "FF2600FF2601FF2600FF2601"
+		hex 77 "FF2600FF2601FF2600FF2601"
+		hex 78 "FF2600FF2601FF2600FF2601"
+		hex 79 "FF2600FF2601FF2600FF2601"
+		hex 80 "FF2600FF2601FF2600FF2601"
+		hex 81 "FF2600FF2601FF2600FF2601"
+		hex 82 "FF2600FF2601FF2600FF2601"
+		hex 83 "FF2600FF2601FF2600FF2601"
+		hex 84 "FF2600FF2601FF2600FF2601"
+		hex 85 "FF2600FF2601FF2600FF2601"
+		hex 86 "FF2600FF2601FF2600FF2601"
+		hex 87 "FF2600FF2601FF2600FF2601"
+		hex 88 "FF2600FF2601FF2600FF2601"
+		hex 89 "FF2600FF2601FF2600FF2601"
+		hex 90 "FF2600FF2601FF2600FF2601"
+		hex 91 "FF2600FF2601FF2600FF2601"
+		hex 92 "FF2600FF2601FF2600FF2601"
+		hex 93 "FF2600FF2601FF2600FF2601"
+		hex 94 "FF2600FF2601FF2600FF2601"
+		hex 95 "FF2600FF2601FF2600FF2601"
+		hex 96 "FF2600FF2601FF2600FF2601"
+		hex 97 "FF2600FF2601FF2600FF2601"
+		hex 98 "FF2600FF2601FF2600FF2601"
+		hex 99 "FF2600FF2601FF2600FF2601"
+		hex 100 "FF2600FF2601FF2600FF2601"
+		hex 101 "FF2600FF2601FF2600FF2601"
+		hex 102 "FF2600FF2601FF2600FF2601"
+		hex 103 "FF2600FF2601FF2600FF2601"
+		hex 104 "FF2600FF2601FF2600FF2601"
+		hex 105 "FF2600FF2601FF2600FF2601"
+		hex 106 "FF2600FF2601FF2600FF2601"
+		hex 107 "FF2600FF2601FF2600FF2601"
+		hex 108 "FF2600FF2601FF2600FF2601"
+		hex 109 "FF2600FF2601FF2600FF2601"
+		hex 110 "FF2600FF2601FF2600FF2601"
+		hex 111 "FF2600FF2601FF2600FF2601"
+		hex 112 "FF2600FF2601FF2600FF2601"
+		hex 113 "FF2600FF2601FF2600FF2601"
+		hex 114 "FF2601FF2600FF2601FF2600"
+		hex 115 "FF2601FF2600FF2601FF2600"
+		hex 116 "FF2601FF2600FF2601FF2600"
+		hex 117 "FF2601FF2600FF2601FF2600"
+		hex 118 "FF2601FF2600FF2601FF2600"
+		hex 119 "FF2601FF2600FF2601FF2600"
+		hex 120 "FF2601FF2600FF2601FF2600"
+		hex 121 "FF2601FF2600FF2601FF2600"
+		hex 122 "FF2601FF2600FF2601FF2600"
+		hex 123 "FF2601FF2600FF2601FF2600"
+		hex 124 "FF2601FF2600FF2601FF2600"
+		hex 125 "FF2601FF2600FF2601FF2600"
+		hex 126 "FF2601FF2600FF2601FF2600"
+		hex 127 "FF2601FF2600FF2601FF2600"
+		hex 128 "FF2601FF2600FF2601FF2600"
+		hex 129 "FF2601FF2600FF2601FF2600"
+		hex 130 "FF2601FF2600FF2601FF2600"
+		hex 131 "FF2601FF2600FF2601FF2600"
+		hex 132 "FF2601FF2600FF2601FF2600"
+		hex 133 "FF2601FF2600FF2601FF2600"
+		hex 134 "FF2601FF2600FF2601FF2600"
+		hex 135 "FF2601FF2600FF2601FF2600"
+		hex 136 "FF2601FF2600FF2601FF2600"
+		hex 137 "FF2601FF2600FF2601FF2600"
+		hex 138 "FF2601FF2600FF2601FF2600"
+		hex 139 "FF2601FF2600FF2601FF2600"
+		hex 140 "FF2601FF2600FF2601FF2600"
+		hex 141 "FF2601FF2600FF2601FF2600"
+		hex 142 "FF2601FF2600FF2601FF2600"
+		hex 143 "FF2601FF2600FF2601FF2600"
+		hex 144 "FF2601FF2600FF2601FF2600"
+		hex 145 "FF2601FF2600FF2601FF2600"
+		hex 146 "FF2601FF2600FF2601FF2600"
+		hex 147 "FF2601FF2600FF2601FF2600"
+		hex 148 "FF2601FF2600FF2601FF2600"
+		hex 149 "FF2601FF2600FF2601FF2600"
+		hex 150 "FF2601FF2600FF2601FF2600"
+		hex 151 "FF2601FF2600FF2601FF2600"
+	}
+}
+
+// Material 4
+materialDef
+{
+	type layered
+
+	paramsDef
+	{
+		name "M00445DCA"
+		alias "anillo"
+		Opacity
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	displacementDef
+	{
+		Displace
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	toonDef
+	{
+		Color0
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map0
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+		Color1
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map1
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+
+	layerDef
+	{
+		type basic
+
+		blendingDef
+		{
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			alias "Layer #1"
+		}
+
+		reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+
+		roughnessDef
+		{
+			Roughmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Anisomap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Rotmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Bump
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		transmittanceDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		sssDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coatingDef
+		{
+			Thickmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+	}
+
+	ditherDef
+	{
+		pal 0 2 "2080"
+		pal 1 2 "2080"
+		pal 2 2 "2080"
+		hex 0 "FF2600FF2601FF2600FF2601"
+		hex 1 "FF2600FF2601FF2600FF2601"
+		hex 2 "FF2600FF2601FF2600FF2601"
+		hex 3 "FF2600FF2601FF2600FF2601"
+		hex 4 "FF2600FF2601FF2600FF2601"
+		hex 5 "FF2600FF2601FF2600FF2601"
+		hex 6 "FF2600FF2601FF2600FF2601"
+		hex 7 "FF2600FF2601FF2600FF2601"
+		hex 8 "FF2600FF2601FF2600FF2601"
+		hex 9 "FF2600FF2601FF2600FF2601"
+		hex 10 "FF2600FF2601FF2600FF2601"
+		hex 11 "FF2600FF2601FF2600FF2601"
+		hex 12 "FF2600FF2601FF2600FF2601"
+		hex 13 "FF2600FF2601FF2600FF2601"
+		hex 14 "FF2600FF2601FF2600FF2601"
+		hex 15 "FF2600FF2601FF2600FF2601"
+		hex 16 "FF2600FF2601FF2600FF2601"
+		hex 17 "FF2600FF2601FF2600FF2601"
+		hex 18 "FF2600FF2601FF2600FF2601"
+		hex 19 "FF2600FF2601FF2600FF2601"
+		hex 20 "FF2600FF2601FF2600FF2601"
+		hex 21 "FF2600FF2601FF2600FF2601"
+		hex 22 "FF2600FF2601FF2600FF2601"
+		hex 23 "FF2600FF2601FF2600FF2601"
+		hex 24 "FF2600FF2601FF2600FF2601"
+		hex 25 "FF2600FF2601FF2600FF2601"
+		hex 26 "FF2600FF2601FF2600FF2601"
+		hex 27 "FF2600FF2601FF2600FF2601"
+		hex 28 "FF2600FF2601FF2600FF2601"
+		hex 29 "FF2600FF2601FF2600FF2601"
+		hex 30 "FF2600FF2601FF2600FF2601"
+		hex 31 "FF2600FF2601FF2600FF2601"
+		hex 32 "FF2600FF2601FF2600FF2601"
+		hex 33 "FF2600FF2601FF2600FF2601"
+		hex 34 "FF2600FF2601FF2600FF2601"
+		hex 35 "FF2600FF2601FF2600FF2601"
+		hex 36 "FF2600FF2601FF2600FF2601"
+		hex 37 "FF2600FF2601FF2600FF2601"
+		hex 38 "FF2601FF2600FF2601FF2600"
+		hex 39 "FF2601FF2600FF2601FF2600"
+		hex 40 "FF2601FF2600FF2601FF2600"
+		hex 41 "FF2601FF2600FF2601FF2600"
+		hex 42 "FF2601FF2600FF2601FF2600"
+		hex 43 "FF2601FF2600FF2601FF2600"
+		hex 44 "FF2601FF2600FF2601FF2600"
+		hex 45 "FF2601FF2600FF2601FF2600"
+		hex 46 "FF2601FF2600FF2601FF2600"
+		hex 47 "FF2601FF2600FF2601FF2600"
+		hex 48 "FF2601FF2600FF2601FF2600"
+		hex 49 "FF2601FF2600FF2601FF2600"
+		hex 50 "FF2601FF2600FF2601FF2600"
+		hex 51 "FF2601FF2600FF2601FF2600"
+		hex 52 "FF2601FF2600FF2601FF2600"
+		hex 53 "FF2601FF2600FF2601FF2600"
+		hex 54 "FF2601FF2600FF2601FF2600"
+		hex 55 "FF2601FF2600FF2601FF2600"
+		hex 56 "FF2601FF2600FF2601FF2600"
+		hex 57 "FF2601FF2600FF2601FF2600"
+		hex 58 "FF2601FF2600FF2601FF2600"
+		hex 59 "FF2601FF2600FF2601FF2600"
+		hex 60 "FF2601FF2600FF2601FF2600"
+		hex 61 "FF2601FF2600FF2601FF2600"
+		hex 62 "FF2601FF2600FF2601FF2600"
+		hex 63 "FF2601FF2600FF2601FF2600"
+		hex 64 "FF2601FF2600FF2601FF2600"
+		hex 65 "FF2601FF2600FF2601FF2600"
+		hex 66 "FF2601FF2600FF2601FF2600"
+		hex 67 "FF2601FF2600FF2601FF2600"
+		hex 68 "FF2601FF2600FF2601FF2600"
+		hex 69 "FF2601FF2600FF2601FF2600"
+		hex 70 "FF2601FF2600FF2601FF2600"
+		hex 71 "FF2601FF2600FF2601FF2600"
+		hex 72 "FF2601FF2600FF2601FF2600"
+		hex 73 "FF2601FF2600FF2601FF2600"
+		hex 74 "FF2601FF2600FF2601FF2600"
+		hex 75 "FF2601FF2600FF2601FF2600"
+		hex 76 "FF2600FF2601FF2600FF2601"
+		hex 77 "FF2600FF2601FF2600FF2601"
+		hex 78 "FF2600FF2601FF2600FF2601"
+		hex 79 "FF2600FF2601FF2600FF2601"
+		hex 80 "FF2600FF2601FF2600FF2601"
+		hex 81 "FF2600FF2601FF2600FF2601"
+		hex 82 "FF2600FF2601FF2600FF2601"
+		hex 83 "FF2600FF2601FF2600FF2601"
+		hex 84 "FF2600FF2601FF2600FF2601"
+		hex 85 "FF2600FF2601FF2600FF2601"
+		hex 86 "FF2600FF2601FF2600FF2601"
+		hex 87 "FF2600FF2601FF2600FF2601"
+		hex 88 "FF2600FF2601FF2600FF2601"
+		hex 89 "FF2600FF2601FF2600FF2601"
+		hex 90 "FF2600FF2601FF2600FF2601"
+		hex 91 "FF2600FF2601FF2600FF2601"
+		hex 92 "FF2600FF2601FF2600FF2601"
+		hex 93 "FF2600FF2601FF2600FF2601"
+		hex 94 "FF2600FF2601FF2600FF2601"
+		hex 95 "FF2600FF2601FF2600FF2601"
+		hex 96 "FF2600FF2601FF2600FF2601"
+		hex 97 "FF2600FF2601FF2600FF2601"
+		hex 98 "FF2600FF2601FF2600FF2601"
+		hex 99 "FF2600FF2601FF2600FF2601"
+		hex 100 "FF2600FF2601FF2600FF2601"
+		hex 101 "FF2600FF2601FF2600FF2601"
+		hex 102 "FF2600FF2601FF2600FF2601"
+		hex 103 "FF2600FF2601FF2600FF2601"
+		hex 104 "FF2600FF2601FF2600FF2601"
+		hex 105 "FF2600FF2601FF2600FF2601"
+		hex 106 "FF2600FF2601FF2600FF2601"
+		hex 107 "FF2600FF2601FF2600FF2601"
+		hex 108 "FF2600FF2601FF2600FF2601"
+		hex 109 "FF2600FF2601FF2600FF2601"
+		hex 110 "FF2600FF2601FF2600FF2601"
+		hex 111 "FF2600FF2601FF2600FF2601"
+		hex 112 "FF2600FF2601FF2600FF2601"
+		hex 113 "FF2600FF2601FF2600FF2601"
+		hex 114 "FF2601FF2600FF2601FF2600"
+		hex 115 "FF2601FF2600FF2601FF2600"
+		hex 116 "FF2601FF2600FF2601FF2600"
+		hex 117 "FF2601FF2600FF2601FF2600"
+		hex 118 "FF2601FF2600FF2601FF2600"
+		hex 119 "FF2601FF2600FF2601FF2600"
+		hex 120 "FF2601FF2600FF2601FF2600"
+		hex 121 "FF2601FF2600FF2601FF2600"
+		hex 122 "FF2601FF2600FF2601FF2600"
+		hex 123 "FF2601FF2600FF2601FF2600"
+		hex 124 "FF2601FF2600FF2601FF2600"
+		hex 125 "FF2601FF2600FF2601FF2600"
+		hex 126 "FF2601FF2600FF2601FF2600"
+		hex 127 "FF2601FF2600FF2601FF2600"
+		hex 128 "FF2601FF2600FF2601FF2600"
+		hex 129 "FF2601FF2600FF2601FF2600"
+		hex 130 "FF2601FF2600FF2601FF2600"
+		hex 131 "FF2601FF2600FF2601FF2600"
+		hex 132 "FF2601FF2600FF2601FF2600"
+		hex 133 "FF2601FF2600FF2601FF2600"
+		hex 134 "FF2601FF2600FF2601FF2600"
+		hex 135 "FF2601FF2600FF2601FF2600"
+		hex 136 "FF2601FF2600FF2601FF2600"
+		hex 137 "FF2601FF2600FF2601FF2600"
+		hex 138 "FF2601FF2600FF2601FF2600"
+		hex 139 "FF2601FF2600FF2601FF2600"
+		hex 140 "FF2601FF2600FF2601FF2600"
+		hex 141 "FF2601FF2600FF2601FF2600"
+		hex 142 "FF2601FF2600FF2601FF2600"
+		hex 143 "FF2601FF2600FF2601FF2600"
+		hex 144 "FF2601FF2600FF2601FF2600"
+		hex 145 "FF2601FF2600FF2601FF2600"
+		hex 146 "FF2601FF2600FF2601FF2600"
+		hex 147 "FF2601FF2600FF2601FF2600"
+		hex 148 "FF2601FF2600FF2601FF2600"
+		hex 149 "FF2601FF2600FF2601FF2600"
+		hex 150 "FF2601FF2600FF2601FF2600"
+		hex 151 "FF2601FF2600FF2601FF2600"
+	}
+}
+
+// Material 5
+materialDef
+{
+	type layered
+
+	paramsDef
+	{
+		name "M005A7C48"
+		alias "circuito"
+		Opacity
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	displacementDef
+	{
+		Displace
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	toonDef
+	{
+		Color0
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map0
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+		Color1
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map1
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+
+	layerDef
+	{
+		type basic
+
+		blendingDef
+		{
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			alias "Layer #1"
+		}
+
+		reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+
+		roughnessDef
+		{
+			Roughmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Anisomap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Rotmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Bump
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		transmittanceDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		sssDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coatingDef
+		{
+			Thickmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+	}
+
+	ditherDef
+	{
+		pal 0 2 "2080"
+		pal 1 2 "2080"
+		pal 2 2 "2080"
+		hex 0 "FF2600FF2601FF2600FF2601"
+		hex 1 "FF2600FF2601FF2600FF2601"
+		hex 2 "FF2600FF2601FF2600FF2601"
+		hex 3 "FF2600FF2601FF2600FF2601"
+		hex 4 "FF2600FF2601FF2600FF2601"
+		hex 5 "FF2600FF2601FF2600FF2601"
+		hex 6 "FF2600FF2601FF2600FF2601"
+		hex 7 "FF2600FF2601FF2600FF2601"
+		hex 8 "FF2600FF2601FF2600FF2601"
+		hex 9 "FF2600FF2601FF2600FF2601"
+		hex 10 "FF2600FF2601FF2600FF2601"
+		hex 11 "FF2600FF2601FF2600FF2601"
+		hex 12 "FF2600FF2601FF2600FF2601"
+		hex 13 "FF2600FF2601FF2600FF2601"
+		hex 14 "FF2600FF2601FF2600FF2601"
+		hex 15 "FF2600FF2601FF2600FF2601"
+		hex 16 "FF2600FF2601FF2600FF2601"
+		hex 17 "FF2600FF2601FF2600FF2601"
+		hex 18 "FF2600FF2601FF2600FF2601"
+		hex 19 "FF2600FF2601FF2600FF2601"
+		hex 20 "FF2600FF2601FF2600FF2601"
+		hex 21 "FF2600FF2601FF2600FF2601"
+		hex 22 "FF2600FF2601FF2600FF2601"
+		hex 23 "FF2600FF2601FF2600FF2601"
+		hex 24 "FF2600FF2601FF2600FF2601"
+		hex 25 "FF2600FF2601FF2600FF2601"
+		hex 26 "FF2600FF2601FF2600FF2601"
+		hex 27 "FF2600FF2601FF2600FF2601"
+		hex 28 "FF2600FF2601FF2600FF2601"
+		hex 29 "FF2600FF2601FF2600FF2601"
+		hex 30 "FF2600FF2601FF2600FF2601"
+		hex 31 "FF2600FF2601FF2600FF2601"
+		hex 32 "FF2600FF2601FF2600FF2601"
+		hex 33 "FF2600FF2601FF2600FF2601"
+		hex 34 "FF2600FF2601FF2600FF2601"
+		hex 35 "FF2600FF2601FF2600FF2601"
+		hex 36 "FF2600FF2601FF2600FF2601"
+		hex 37 "FF2600FF2601FF2600FF2601"
+		hex 38 "FF2601FF2600FF2601FF2600"
+		hex 39 "FF2601FF2600FF2601FF2600"
+		hex 40 "FF2601FF2600FF2601FF2600"
+		hex 41 "FF2601FF2600FF2601FF2600"
+		hex 42 "FF2601FF2600FF2601FF2600"
+		hex 43 "FF2601FF2600FF2601FF2600"
+		hex 44 "FF2601FF2600FF2601FF2600"
+		hex 45 "FF2601FF2600FF2601FF2600"
+		hex 46 "FF2601FF2600FF2601FF2600"
+		hex 47 "FF2601FF2600FF2601FF2600"
+		hex 48 "FF2601FF2600FF2601FF2600"
+		hex 49 "FF2601FF2600FF2601FF2600"
+		hex 50 "FF2601FF2600FF2601FF2600"
+		hex 51 "FF2601FF2600FF2601FF2600"
+		hex 52 "FF2601FF2600FF2601FF2600"
+		hex 53 "FF2601FF2600FF2601FF2600"
+		hex 54 "FF2601FF2600FF2601FF2600"
+		hex 55 "FF2601FF2600FF2601FF2600"
+		hex 56 "FF2601FF2600FF2601FF2600"
+		hex 57 "FF2601FF2600FF2601FF2600"
+		hex 58 "FF2601FF2600FF2601FF2600"
+		hex 59 "FF2601FF2600FF2601FF2600"
+		hex 60 "FF2601FF2600FF2601FF2600"
+		hex 61 "FF2601FF2600FF2601FF2600"
+		hex 62 "FF2601FF2600FF2601FF2600"
+		hex 63 "FF2601FF2600FF2601FF2600"
+		hex 64 "FF2601FF2600FF2601FF2600"
+		hex 65 "FF2601FF2600FF2601FF2600"
+		hex 66 "FF2601FF2600FF2601FF2600"
+		hex 67 "FF2601FF2600FF2601FF2600"
+		hex 68 "FF2601FF2600FF2601FF2600"
+		hex 69 "FF2601FF2600FF2601FF2600"
+		hex 70 "FF2601FF2600FF2601FF2600"
+		hex 71 "FF2601FF2600FF2601FF2600"
+		hex 72 "FF2601FF2600FF2601FF2600"
+		hex 73 "FF2601FF2600FF2601FF2600"
+		hex 74 "FF2601FF2600FF2601FF2600"
+		hex 75 "FF2601FF2600FF2601FF2600"
+		hex 76 "FF2600FF2601FF2600FF2601"
+		hex 77 "FF2600FF2601FF2600FF2601"
+		hex 78 "FF2600FF2601FF2600FF2601"
+		hex 79 "FF2600FF2601FF2600FF2601"
+		hex 80 "FF2600FF2601FF2600FF2601"
+		hex 81 "FF2600FF2601FF2600FF2601"
+		hex 82 "FF2600FF2601FF2600FF2601"
+		hex 83 "FF2600FF2601FF2600FF2601"
+		hex 84 "FF2600FF2601FF2600FF2601"
+		hex 85 "FF2600FF2601FF2600FF2601"
+		hex 86 "FF2600FF2601FF2600FF2601"
+		hex 87 "FF2600FF2601FF2600FF2601"
+		hex 88 "FF2600FF2601FF2600FF2601"
+		hex 89 "FF2600FF2601FF2600FF2601"
+		hex 90 "FF2600FF2601FF2600FF2601"
+		hex 91 "FF2600FF2601FF2600FF2601"
+		hex 92 "FF2600FF2601FF2600FF2601"
+		hex 93 "FF2600FF2601FF2600FF2601"
+		hex 94 "FF2600FF2601FF2600FF2601"
+		hex 95 "FF2600FF2601FF2600FF2601"
+		hex 96 "FF2600FF2601FF2600FF2601"
+		hex 97 "FF2600FF2601FF2600FF2601"
+		hex 98 "FF2600FF2601FF2600FF2601"
+		hex 99 "FF2600FF2601FF2600FF2601"
+		hex 100 "FF2600FF2601FF2600FF2601"
+		hex 101 "FF2600FF2601FF2600FF2601"
+		hex 102 "FF2600FF2601FF2600FF2601"
+		hex 103 "FF2600FF2601FF2600FF2601"
+		hex 104 "FF2600FF2601FF2600FF2601"
+		hex 105 "FF2600FF2601FF2600FF2601"
+		hex 106 "FF2600FF2601FF2600FF2601"
+		hex 107 "FF2600FF2601FF2600FF2601"
+		hex 108 "FF2600FF2601FF2600FF2601"
+		hex 109 "FF2600FF2601FF2600FF2601"
+		hex 110 "FF2600FF2601FF2600FF2601"
+		hex 111 "FF2600FF2601FF2600FF2601"
+		hex 112 "FF2600FF2601FF2600FF2601"
+		hex 113 "FF2600FF2601FF2600FF2601"
+		hex 114 "FF2601FF2600FF2601FF2600"
+		hex 115 "FF2601FF2600FF2601FF2600"
+		hex 116 "FF2601FF2600FF2601FF2600"
+		hex 117 "FF2601FF2600FF2601FF2600"
+		hex 118 "FF2601FF2600FF2601FF2600"
+		hex 119 "FF2601FF2600FF2601FF2600"
+		hex 120 "FF2601FF2600FF2601FF2600"
+		hex 121 "FF2601FF2600FF2601FF2600"
+		hex 122 "FF2601FF2600FF2601FF2600"
+		hex 123 "FF2601FF2600FF2601FF2600"
+		hex 124 "FF2601FF2600FF2601FF2600"
+		hex 125 "FF2601FF2600FF2601FF2600"
+		hex 126 "FF2601FF2600FF2601FF2600"
+		hex 127 "FF2601FF2600FF2601FF2600"
+		hex 128 "FF2601FF2600FF2601FF2600"
+		hex 129 "FF2601FF2600FF2601FF2600"
+		hex 130 "FF2601FF2600FF2601FF2600"
+		hex 131 "FF2601FF2600FF2601FF2600"
+		hex 132 "FF2601FF2600FF2601FF2600"
+		hex 133 "FF2601FF2600FF2601FF2600"
+		hex 134 "FF2601FF2600FF2601FF2600"
+		hex 135 "FF2601FF2600FF2601FF2600"
+		hex 136 "FF2601FF2600FF2601FF2600"
+		hex 137 "FF2601FF2600FF2601FF2600"
+		hex 138 "FF2601FF2600FF2601FF2600"
+		hex 139 "FF2601FF2600FF2601FF2600"
+		hex 140 "FF2601FF2600FF2601FF2600"
+		hex 141 "FF2601FF2600FF2601FF2600"
+		hex 142 "FF2601FF2600FF2601FF2600"
+		hex 143 "FF2601FF2600FF2601FF2600"
+		hex 144 "FF2601FF2600FF2601FF2600"
+		hex 145 "FF2601FF2600FF2601FF2600"
+		hex 146 "FF2601FF2600FF2601FF2600"
+		hex 147 "FF2601FF2600FF2601FF2600"
+		hex 148 "FF2601FF2600FF2601FF2600"
+		hex 149 "FF2601FF2600FF2601FF2600"
+		hex 150 "FF2601FF2600FF2601FF2600"
+		hex 151 "FF2601FF2600FF2601FF2600"
+	}
+}
+
+// Material 6
+materialDef
+{
+	type layered
+
+	paramsDef
+	{
+		name "M00619050"
+		alias "oro"
+		Opacity
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	displacementDef
+	{
+		Displace
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	toonDef
+	{
+		Color0
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map0
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+		Color1
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map1
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+
+	layerDef
+	{
+		type basic
+
+		blendingDef
+		{
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			alias "Layer #1"
+		}
+
+		reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+
+		roughnessDef
+		{
+			Roughmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Anisomap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Rotmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Bump
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		transmittanceDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		sssDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coatingDef
+		{
+			Thickmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+	}
+
+	ditherDef
+	{
+		pal 0 2 "2080"
+		pal 1 2 "2080"
+		pal 2 2 "2080"
+		hex 0 "FF2600FF2601FF2600FF2601"
+		hex 1 "FF2600FF2601FF2600FF2601"
+		hex 2 "FF2600FF2601FF2600FF2601"
+		hex 3 "FF2600FF2601FF2600FF2601"
+		hex 4 "FF2600FF2601FF2600FF2601"
+		hex 5 "FF2600FF2601FF2600FF2601"
+		hex 6 "FF2600FF2601FF2600FF2601"
+		hex 7 "FF2600FF2601FF2600FF2601"
+		hex 8 "FF2600FF2601FF2600FF2601"
+		hex 9 "FF2600FF2601FF2600FF2601"
+		hex 10 "FF2600FF2601FF2600FF2601"
+		hex 11 "FF2600FF2601FF2600FF2601"
+		hex 12 "FF2600FF2601FF2600FF2601"
+		hex 13 "FF2600FF2601FF2600FF2601"
+		hex 14 "FF2600FF2601FF2600FF2601"
+		hex 15 "FF2600FF2601FF2600FF2601"
+		hex 16 "FF2600FF2601FF2600FF2601"
+		hex 17 "FF2600FF2601FF2600FF2601"
+		hex 18 "FF2600FF2601FF2600FF2601"
+		hex 19 "FF2600FF2601FF2600FF2601"
+		hex 20 "FF2600FF2601FF2600FF2601"
+		hex 21 "FF2600FF2601FF2600FF2601"
+		hex 22 "FF2600FF2601FF2600FF2601"
+		hex 23 "FF2600FF2601FF2600FF2601"
+		hex 24 "FF2600FF2601FF2600FF2601"
+		hex 25 "FF2600FF2601FF2600FF2601"
+		hex 26 "FF2600FF2601FF2600FF2601"
+		hex 27 "FF2600FF2601FF2600FF2601"
+		hex 28 "FF2600FF2601FF2600FF2601"
+		hex 29 "FF2600FF2601FF2600FF2601"
+		hex 30 "FF2600FF2601FF2600FF2601"
+		hex 31 "FF2600FF2601FF2600FF2601"
+		hex 32 "FF2600FF2601FF2600FF2601"
+		hex 33 "FF2600FF2601FF2600FF2601"
+		hex 34 "FF2600FF2601FF2600FF2601"
+		hex 35 "FF2600FF2601FF2600FF2601"
+		hex 36 "FF2600FF2601FF2600FF2601"
+		hex 37 "FF2600FF2601FF2600FF2601"
+		hex 38 "FF2601FF2600FF2601FF2600"
+		hex 39 "FF2601FF2600FF2601FF2600"
+		hex 40 "FF2601FF2600FF2601FF2600"
+		hex 41 "FF2601FF2600FF2601FF2600"
+		hex 42 "FF2601FF2600FF2601FF2600"
+		hex 43 "FF2601FF2600FF2601FF2600"
+		hex 44 "FF2601FF2600FF2601FF2600"
+		hex 45 "FF2601FF2600FF2601FF2600"
+		hex 46 "FF2601FF2600FF2601FF2600"
+		hex 47 "FF2601FF2600FF2601FF2600"
+		hex 48 "FF2601FF2600FF2601FF2600"
+		hex 49 "FF2601FF2600FF2601FF2600"
+		hex 50 "FF2601FF2600FF2601FF2600"
+		hex 51 "FF2601FF2600FF2601FF2600"
+		hex 52 "FF2601FF2600FF2601FF2600"
+		hex 53 "FF2601FF2600FF2601FF2600"
+		hex 54 "FF2601FF2600FF2601FF2600"
+		hex 55 "FF2601FF2600FF2601FF2600"
+		hex 56 "FF2601FF2600FF2601FF2600"
+		hex 57 "FF2601FF2600FF2601FF2600"
+		hex 58 "FF2601FF2600FF2601FF2600"
+		hex 59 "FF2601FF2600FF2601FF2600"
+		hex 60 "FF2601FF2600FF2601FF2600"
+		hex 61 "FF2601FF2600FF2601FF2600"
+		hex 62 "FF2601FF2600FF2601FF2600"
+		hex 63 "FF2601FF2600FF2601FF2600"
+		hex 64 "FF2601FF2600FF2601FF2600"
+		hex 65 "FF2601FF2600FF2601FF2600"
+		hex 66 "FF2601FF2600FF2601FF2600"
+		hex 67 "FF2601FF2600FF2601FF2600"
+		hex 68 "FF2601FF2600FF2601FF2600"
+		hex 69 "FF2601FF2600FF2601FF2600"
+		hex 70 "FF2601FF2600FF2601FF2600"
+		hex 71 "FF2601FF2600FF2601FF2600"
+		hex 72 "FF2601FF2600FF2601FF2600"
+		hex 73 "FF2601FF2600FF2601FF2600"
+		hex 74 "FF2601FF2600FF2601FF2600"
+		hex 75 "FF2601FF2600FF2601FF2600"
+		hex 76 "FF2600FF2601FF2600FF2601"
+		hex 77 "FF2600FF2601FF2600FF2601"
+		hex 78 "FF2600FF2601FF2600FF2601"
+		hex 79 "FF2600FF2601FF2600FF2601"
+		hex 80 "FF2600FF2601FF2600FF2601"
+		hex 81 "FF2600FF2601FF2600FF2601"
+		hex 82 "FF2600FF2601FF2600FF2601"
+		hex 83 "FF2600FF2601FF2600FF2601"
+		hex 84 "FF2600FF2601FF2600FF2601"
+		hex 85 "FF2600FF2601FF2600FF2601"
+		hex 86 "FF2600FF2601FF2600FF2601"
+		hex 87 "FF2600FF2601FF2600FF2601"
+		hex 88 "FF2600FF2601FF2600FF2601"
+		hex 89 "FF2600FF2601FF2600FF2601"
+		hex 90 "FF2600FF2601FF2600FF2601"
+		hex 91 "FF2600FF2601FF2600FF2601"
+		hex 92 "FF2600FF2601FF2600FF2601"
+		hex 93 "FF2600FF2601FF2600FF2601"
+		hex 94 "FF2600FF2601FF2600FF2601"
+		hex 95 "FF2600FF2601FF2600FF2601"
+		hex 96 "FF2600FF2601FF2600FF2601"
+		hex 97 "FF2600FF2601FF2600FF2601"
+		hex 98 "FF2600FF2601FF2600FF2601"
+		hex 99 "FF2600FF2601FF2600FF2601"
+		hex 100 "FF2600FF2601FF2600FF2601"
+		hex 101 "FF2600FF2601FF2600FF2601"
+		hex 102 "FF2600FF2601FF2600FF2601"
+		hex 103 "FF2600FF2601FF2600FF2601"
+		hex 104 "FF2600FF2601FF2600FF2601"
+		hex 105 "FF2600FF2601FF2600FF2601"
+		hex 106 "FF2600FF2601FF2600FF2601"
+		hex 107 "FF2600FF2601FF2600FF2601"
+		hex 108 "FF2600FF2601FF2600FF2601"
+		hex 109 "FF2600FF2601FF2600FF2601"
+		hex 110 "FF2600FF2601FF2600FF2601"
+		hex 111 "FF2600FF2601FF2600FF2601"
+		hex 112 "FF2600FF2601FF2600FF2601"
+		hex 113 "FF2600FF2601FF2600FF2601"
+		hex 114 "FF2601FF2600FF2601FF2600"
+		hex 115 "FF2601FF2600FF2601FF2600"
+		hex 116 "FF2601FF2600FF2601FF2600"
+		hex 117 "FF2601FF2600FF2601FF2600"
+		hex 118 "FF2601FF2600FF2601FF2600"
+		hex 119 "FF2601FF2600FF2601FF2600"
+		hex 120 "FF2601FF2600FF2601FF2600"
+		hex 121 "FF2601FF2600FF2601FF2600"
+		hex 122 "FF2601FF2600FF2601FF2600"
+		hex 123 "FF2601FF2600FF2601FF2600"
+		hex 124 "FF2601FF2600FF2601FF2600"
+		hex 125 "FF2601FF2600FF2601FF2600"
+		hex 126 "FF2601FF2600FF2601FF2600"
+		hex 127 "FF2601FF2600FF2601FF2600"
+		hex 128 "FF2601FF2600FF2601FF2600"
+		hex 129 "FF2601FF2600FF2601FF2600"
+		hex 130 "FF2601FF2600FF2601FF2600"
+		hex 131 "FF2601FF2600FF2601FF2600"
+		hex 132 "FF2601FF2600FF2601FF2600"
+		hex 133 "FF2601FF2600FF2601FF2600"
+		hex 134 "FF2601FF2600FF2601FF2600"
+		hex 135 "FF2601FF2600FF2601FF2600"
+		hex 136 "FF2601FF2600FF2601FF2600"
+		hex 137 "FF2601FF2600FF2601FF2600"
+		hex 138 "FF2601FF2600FF2601FF2600"
+		hex 139 "FF2601FF2600FF2601FF2600"
+		hex 140 "FF2601FF2600FF2601FF2600"
+		hex 141 "FF2601FF2600FF2601FF2600"
+		hex 142 "FF2601FF2600FF2601FF2600"
+		hex 143 "FF2601FF2600FF2601FF2600"
+		hex 144 "FF2601FF2600FF2601FF2600"
+		hex 145 "FF2601FF2600FF2601FF2600"
+		hex 146 "FF2601FF2600FF2601FF2600"
+		hex 147 "FF2601FF2600FF2601FF2600"
+		hex 148 "FF2601FF2600FF2601FF2600"
+		hex 149 "FF2601FF2600FF2601FF2600"
+		hex 150 "FF2601FF2600FF2601FF2600"
+		hex 151 "FF2601FF2600FF2601FF2600"
+	}
+}
+
+// Material 7
+materialDef
+{
+	type layered
+
+	paramsDef
+	{
+		name "M007B45E5"
+		alias "letras"
+		Opacity
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	displacementDef
+	{
+		Displace
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+	toonDef
+	{
+		Color0
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map0
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+		Color1
+		{
+			mode rgbsl
+			rgb 15790320
+		}
+
+		Map1
+		{
+			active 0
+			factor 100.000000
+			path ""
+
+			submapDef
+			{
+				type bitmap
+
+			}
+
+		}
+
+	}
+
+
+	layerDef
+	{
+		type basic
+
+		blendingDef
+		{
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			alias "Layer #1"
+		}
+
+		reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+
+		roughnessDef
+		{
+			Roughmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Anisomap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Rotmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Bump
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		transmittanceDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		sssDef
+		{
+			Color
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coatingDef
+		{
+			Thickmap
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_reflectanceDef
+		{
+			Color0
+			{
+				mode rgbsl
+				rgb 8421504
+			}
+
+			Map0
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+			Color1
+			{
+				mode rgbsl
+				rgb 16777215
+			}
+
+			Map1
+			{
+				active 0
+				factor 100.000000
+				path ""
+
+				submapDef
+				{
+					type bitmap
+
+				}
+
+			}
+
+		}
+
+		coa_fresnelDef
+		{
+			nd
+			{
+				index 1.510000
+				custom 0
+				cutoff 46.500000
+				bending 16.000000
+			}
+
+		}
+	}
+
+	ditherDef
+	{
+		pal 0 2 "2080"
+		pal 1 2 "2080"
+		pal 2 2 "2080"
+		hex 0 "FF2600FF2601FF2600FF2601"
+		hex 1 "FF2600FF2601FF2600FF2601"
+		hex 2 "FF2600FF2601FF2600FF2601"
+		hex 3 "FF2600FF2601FF2600FF2601"
+		hex 4 "FF2600FF2601FF2600FF2601"
+		hex 5 "FF2600FF2601FF2600FF2601"
+		hex 6 "FF2600FF2601FF2600FF2601"
+		hex 7 "FF2600FF2601FF2600FF2601"
+		hex 8 "FF2600FF2601FF2600FF2601"
+		hex 9 "FF2600FF2601FF2600FF2601"
+		hex 10 "FF2600FF2601FF2600FF2601"
+		hex 11 "FF2600FF2601FF2600FF2601"
+		hex 12 "FF2600FF2601FF2600FF2601"
+		hex 13 "FF2600FF2601FF2600FF2601"
+		hex 14 "FF2600FF2601FF2600FF2601"
+		hex 15 "FF2600FF2601FF2600FF2601"
+		hex 16 "FF2600FF2601FF2600FF2601"
+		hex 17 "FF2600FF2601FF2600FF2601"
+		hex 18 "FF2600FF2601FF2600FF2601"
+		hex 19 "FF2600FF2601FF2600FF2601"
+		hex 20 "FF2600FF2601FF2600FF2601"
+		hex 21 "FF2600FF2601FF2600FF2601"
+		hex 22 "FF2600FF2601FF2600FF2601"
+		hex 23 "FF2600FF2601FF2600FF2601"
+		hex 24 "FF2600FF2601FF2600FF2601"
+		hex 25 "FF2600FF2601FF2600FF2601"
+		hex 26 "FF2600FF2601FF2600FF2601"
+		hex 27 "FF2600FF2601FF2600FF2601"
+		hex 28 "FF2600FF2601FF2600FF2601"
+		hex 29 "FF2600FF2601FF2600FF2601"
+		hex 30 "FF2600FF2601FF2600FF2601"
+		hex 31 "FF2600FF2601FF2600FF2601"
+		hex 32 "FF2600FF2601FF2600FF2601"
+		hex 33 "FF2600FF2601FF2600FF2601"
+		hex 34 "FF2600FF2601FF2600FF2601"
+		hex 35 "FF2600FF2601FF2600FF2601"
+		hex 36 "FF2600FF2601FF2600FF2601"
+		hex 37 "FF2600FF2601FF2600FF2601"
+		hex 38 "FF2601FF2600FF2601FF2600"
+		hex 39 "FF2601FF2600FF2601FF2600"
+		hex 40 "FF2601FF2600FF2601FF2600"
+		hex 41 "FF2601FF2600FF2601FF2600"
+		hex 42 "FF2601FF2600FF2601FF2600"
+		hex 43 "FF2601FF2600FF2601FF2600"
+		hex 44 "FF2601FF2600FF2601FF2600"
+		hex 45 "FF2601FF2600FF2601FF2600"
+		hex 46 "FF2601FF2600FF2601FF2600"
+		hex 47 "FF2601FF2600FF2601FF2600"
+		hex 48 "FF2601FF2600FF2601FF2600"
+		hex 49 "FF2601FF2600FF2601FF2600"
+		hex 50 "FF2601FF2600FF2601FF2600"
+		hex 51 "FF2601FF2600FF2601FF2600"
+		hex 52 "FF2601FF2600FF2601FF2600"
+		hex 53 "FF2601FF2600FF2601FF2600"
+		hex 54 "FF2601FF2600FF2601FF2600"
+		hex 55 "FF2601FF2600FF2601FF2600"
+		hex 56 "FF2601FF2600FF2601FF2600"
+		hex 57 "FF2601FF2600FF2601FF2600"
+		hex 58 "FF2601FF2600FF2601FF2600"
+		hex 59 "FF2601FF2600FF2601FF2600"
+		hex 60 "FF2601FF2600FF2601FF2600"
+		hex 61 "FF2601FF2600FF2601FF2600"
+		hex 62 "FF2601FF2600FF2601FF2600"
+		hex 63 "FF2601FF2600FF2601FF2600"
+		hex 64 "FF2601FF2600FF2601FF2600"
+		hex 65 "FF2601FF2600FF2601FF2600"
+		hex 66 "FF2601FF2600FF2601FF2600"
+		hex 67 "FF2601FF2600FF2601FF2600"
+		hex 68 "FF2601FF2600FF2601FF2600"
+		hex 69 "FF2601FF2600FF2601FF2600"
+		hex 70 "FF2601FF2600FF2601FF2600"
+		hex 71 "FF2601FF2600FF2601FF2600"
+		hex 72 "FF2601FF2600FF2601FF2600"
+		hex 73 "FF2601FF2600FF2601FF2600"
+		hex 74 "FF2601FF2600FF2601FF2600"
+		hex 75 "FF2601FF2600FF2601FF2600"
+		hex 76 "FF2600FF2601FF2600FF2601"
+		hex 77 "FF2600FF2601FF2600FF2601"
+		hex 78 "FF2600FF2601FF2600FF2601"
+		hex 79 "FF2600FF2601FF2600FF2601"
+		hex 80 "FF2600FF2601FF2600FF2601"
+		hex 81 "FF2600FF2601FF2600FF2601"
+		hex 82 "FF2600FF2601FF2600FF2601"
+		hex 83 "FF2600FF2601FF2600FF2601"
+		hex 84 "FF2600FF2601FF2600FF2601"
+		hex 85 "FF2600FF2601FF2600FF2601"
+		hex 86 "FF2600FF2601FF2600FF2601"
+		hex 87 "FF2600FF2601FF2600FF2601"
+		hex 88 "FF2600FF2601FF2600FF2601"
+		hex 89 "FF2600FF2601FF2600FF2601"
+		hex 90 "FF2600FF2601FF2600FF2601"
+		hex 91 "FF2600FF2601FF2600FF2601"
+		hex 92 "FF2600FF2601FF2600FF2601"
+		hex 93 "FF2600FF2601FF2600FF2601"
+		hex 94 "FF2600FF2601FF2600FF2601"
+		hex 95 "FF2600FF2601FF2600FF2601"
+		hex 96 "FF2600FF2601FF2600FF2601"
+		hex 97 "FF2600FF2601FF2600FF2601"
+		hex 98 "FF2600FF2601FF2600FF2601"
+		hex 99 "FF2600FF2601FF2600FF2601"
+		hex 100 "FF2600FF2601FF2600FF2601"
+		hex 101 "FF2600FF2601FF2600FF2601"
+		hex 102 "FF2600FF2601FF2600FF2601"
+		hex 103 "FF2600FF2601FF2600FF2601"
+		hex 104 "FF2600FF2601FF2600FF2601"
+		hex 105 "FF2600FF2601FF2600FF2601"
+		hex 106 "FF2600FF2601FF2600FF2601"
+		hex 107 "FF2600FF2601FF2600FF2601"
+		hex 108 "FF2600FF2601FF2600FF2601"
+		hex 109 "FF2600FF2601FF2600FF2601"
+		hex 110 "FF2600FF2601FF2600FF2601"
+		hex 111 "FF2600FF2601FF2600FF2601"
+		hex 112 "FF2600FF2601FF2600FF2601"
+		hex 113 "FF2600FF2601FF2600FF2601"
+		hex 114 "FF2601FF2600FF2601FF2600"
+		hex 115 "FF2601FF2600FF2601FF2600"
+		hex 116 "FF2601FF2600FF2601FF2600"
+		hex 117 "FF2601FF2600FF2601FF2600"
+		hex 118 "FF2601FF2600FF2601FF2600"
+		hex 119 "FF2601FF2600FF2601FF2600"
+		hex 120 "FF2601FF2600FF2601FF2600"
+		hex 121 "FF2601FF2600FF2601FF2600"
+		hex 122 "FF2601FF2600FF2601FF2600"
+		hex 123 "FF2601FF2600FF2601FF2600"
+		hex 124 "FF2601FF2600FF2601FF2600"
+		hex 125 "FF2601FF2600FF2601FF2600"
+		hex 126 "FF2601FF2600FF2601FF2600"
+		hex 127 "FF2601FF2600FF2601FF2600"
+		hex 128 "FF2601FF2600FF2601FF2600"
+		hex 129 "FF2601FF2600FF2601FF2600"
+		hex 130 "FF2601FF2600FF2601FF2600"
+		hex 131 "FF2601FF2600FF2601FF2600"
+		hex 132 "FF2601FF2600FF2601FF2600"
+		hex 133 "FF2601FF2600FF2601FF2600"
+		hex 134 "FF2601FF2600FF2601FF2600"
+		hex 135 "FF2601FF2600FF2601FF2600"
+		hex 136 "FF2601FF2600FF2601FF2600"
+		hex 137 "FF2601FF2600FF2601FF2600"
+		hex 138 "FF2601FF2600FF2601FF2600"
+		hex 139 "FF2601FF2600FF2601FF2600"
+		hex 140 "FF2601FF2600FF2601FF2600"
+		hex 141 "FF2601FF2600FF2601FF2600"
+		hex 142 "FF2601FF2600FF2601FF2600"
+		hex 143 "FF2601FF2600FF2601FF2600"
+		hex 144 "FF2601FF2600FF2601FF2600"
+		hex 145 "FF2601FF2600FF2601FF2600"
+		hex 146 "FF2601FF2600FF2601FF2600"
+		hex 147 "FF2601FF2600FF2601FF2600"
+		hex 148 "FF2601FF2600FF2601FF2600"
+		hex 149 "FF2601FF2600FF2601FF2600"
+		hex 150 "FF2601FF2600FF2601FF2600"
+		hex 151 "FF2601FF2600FF2601FF2600"
+	}
+}
+
